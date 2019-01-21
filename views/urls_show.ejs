@@ -13,12 +13,16 @@
       <%=longURL%>
       <form action="/urls/<%= shortURL%>" method="POST" style="margin:150px;">
         <label for="longURL">Enter Updated URL:</label>
-        <input type="text" name="longURL" value="<%=longURL%>" style="width: 300px">
+
+        <input type="text" name="longURL" value="<%= longURL %>" style="width: 300px">
         <input type="submit" value="Update">
       </form>
     </li>
   </ul>
 
+  <br>
+  <br>
+  <button type="button" padding="10px"><a href="/urls">Go to my URLs</a></button>
 
 
 </body>
