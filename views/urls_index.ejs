@@ -12,10 +12,11 @@
     <tr>
       <td><%= url %></td>
 
-      <td><%= urls[url] %></td>
+      <td><%= urls[url].longURL %></td>
 
 
       <td>
+        <a href="/urls/<%= url %>">Edit</a>
         <form method="POST" action="/urls/<%= url %>/delete"">
         <input type="submit" value="Delete">
       </form>
@@ -27,6 +28,9 @@
     <% } %>
 
   </table>
+  <br>
+  <br>
+<button type="button""><a href="/urls/new">Get a short URL</a></button>
 
 
 
