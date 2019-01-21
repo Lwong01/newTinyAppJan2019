@@ -13,4 +13,4 @@ TinyApp is a full stack web application built with Node and Express that allows 
 
 !["Screenshot of Registration Page"] (https://github.com/Lwong01/newTinyAppJan2019/blob/master/docs/Register.png)
 
-(https://github.com/Lwong01/newTinyAppJan2019/blob/master/docs/Login.png?raw=true)
+( https://github.com/Lwong01/newTinyAppJan2019/blob/master/docs/Login.png?raw=true )
