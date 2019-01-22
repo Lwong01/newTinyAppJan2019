@@ -50,7 +50,7 @@ let users = {
 
 //Generating random string for the url
 function generateRandomString() {
-  var ranString = " ";
+  var ranString = "";
   var orderString = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'";
 
   for (var x = 0; x < 7; x++) {
